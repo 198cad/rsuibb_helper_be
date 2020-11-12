@@ -1,0 +1,36 @@
+{
+  "name": "erpqu-backend",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "repository": "https://github.com/198cad/erpqu-backend.git",
+  "author": "198cad <198cad@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production nodemon --exec babel-node src/app.js",
+    "clean": "rm -rf dist/",
+    "build": "babel ./src --out-dir dist",
+    "prod_server": "node ./dist/app.js",
+    "prod": "NODE_ENV=production npm-run-all clean build prod_server"
+  },
+  "dependencies": {
+    "@hapi/joi": "15.0.3",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6",
+    "npm-run-all": "^4.1.5"
+  }
+}

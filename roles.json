@@ -1,0 +1,31 @@
+{
+  "roles": [
+    {
+      "roleName": "Rekam Medis",
+      "services": [
+        {
+          "serviceName": "patient",
+          "allow": {
+            "create": true,
+            "read": true,
+            "update": true,
+            "delete": true,
+            "report": true,
+            "print": true
+          }
+        },
+        {
+          "serviceName": "user",
+          "allow": {
+            "create": true,
+            "read": true,
+            "update": true,
+            "delete": true,
+            "report": true,
+            "print": true
+          }
+        }
+      ]
+    }
+  ]
+}
