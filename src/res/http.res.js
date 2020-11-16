@@ -145,3 +145,12 @@ export const notImplemented = (res, data) => {
     data,
   });
 };
+
+export const conflict = (res, data) => {
+  res.status(409).json({
+    status: 409,
+    message:
+      "Kode status 409 (Konflik) menunjukkan bahwa permintaan tidak dapat diselesaikan karena konflik dengan status sumber daya target saat ini. Kode ini digunakan dalam situasi di mana pengguna mungkin dapat menyelesaikan konflik dan mengirim ulang permintaan.",
+    data,
+  });
+};

@@ -1,23 +1,14 @@
 import mongoose from "mongoose";
-
+import mongoosePaginate from "mongoose-paginate-v2";
+import uniqueValidator from "mongoose-unique-validator";
 const { Schema, model } = mongoose;
 
 const roleSchema = new Schema({
-  roleName: String,
-  services: [
-    {
-      serviceName: String,
-      allow: {
-        create: { type: Boolean, default: false },
-        read: { type: Boolean, default: false },
-        update: { type: Boolean, default: false },
-        delete: { type: Boolean, default: false },
-        search: { type: Boolean, default: false },
-        report: { type: Boolean, default: false },
-        print: { type: Boolean, default: false },
-      },
-    },
-  ],
+  role_name: { type: String, unique: true },
+  is_active: Boolean,
 });
+
+roleSchema.plugin(mongoosePaginate);
+roleSchema.plugin(uniqueValidator);
 
 export default model("Roles", roleSchema);

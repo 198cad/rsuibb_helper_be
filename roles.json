@@ -1,31 +1,31 @@
 {
-  "roles": [
+  "role_name": "Rekam Medis",
+  "services": [
     {
-      "roleName": "Rekam Medis",
-      "services": [
-        {
-          "serviceName": "patient",
-          "allow": {
-            "create": true,
-            "read": true,
-            "update": true,
-            "delete": true,
-            "report": true,
-            "print": true
-          }
-        },
-        {
-          "serviceName": "user",
-          "allow": {
-            "create": true,
-            "read": true,
-            "update": true,
-            "delete": true,
-            "report": true,
-            "print": true
-          }
-        }
-      ]
+      "service_name": "patient",
+      "allow": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true,
+        "report": true,
+        "search": true,
+        "socket": true,
+        "print": true
+      }
+    },
+    {
+      "service_name": "user",
+      "allow": {
+        "create": true,
+        "read": true,
+        "update": true,
+        "delete": true,
+        "report": true,
+        "search": true,
+        "socket": true,
+        "print": true
+      }
     }
   ]
 }

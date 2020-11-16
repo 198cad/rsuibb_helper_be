@@ -10,6 +10,7 @@ mongoose
   .connect(helper, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex: true,
   })
   .then(() => {
     console.log(`database connected ${process.env.MONGO_DB}@${process.env.MONGO_HOST}`);
