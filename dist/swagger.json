@@ -1,0 +1,154 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "RestFull API RSUI Banyubening Helper",
+    "description": "Sistem negosiasi pertukaran data antar software di Rumah Sakit Banyubening Boyolali",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:5000",
+  "basePath": "/api/v1",
+  "tags": [
+    {
+      "name": "Authentication",
+      "description": "Authentication & Authorization"
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "securityDefinitions": {
+    "ApiKeyAuth": {
+      "type": "apiKey",
+      "in": "headers",
+      "name": "x-token"
+    }
+  },
+  "paths": {
+    "/auth/login": {
+      "post": {
+        "summary": "Login user",
+        "tags": ["Authentication"],
+        "description": "Login user in system",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "Login user",
+            "schema": {
+              "$ref": "#/definitions/authentication"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Login Success",
+            "schema": {
+              "$ref": "#/definitions/authentication"
+            }
+          },
+          "401": {
+            "description": "Login details are not valid!!"
+          },
+          "404": {
+            "description": "Email is not registered!"
+          },
+          "500": {
+            "description": "User login failed!!"
+          }
+        }
+      }
+    },
+    "/user": {
+      "post": {
+        "summary": "Create new user",
+        "tags": ["User"],
+        "description": "Create user for standart user",
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/user"
+            }
+          }
+        ]
+      }
+    },
+    "/allow": {
+      "post": {
+        "tags": ["Allow"],
+        "parameters": [
+          {
+            "name": "allow",
+            "in": "body",
+            "schema": {
+              "$ref": "#/definitions/allow"
+            }
+          }
+        ]
+      }
+    }
+  },
+
+  "definitions": {
+    "authentication": {
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "user": {
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "allow": {
+      "properties": {
+        "role": {
+          "type": "string"
+        },
+        "service": {
+          "type": "string"
+        },
+        "create": {
+          "type": "boolean"
+        },
+        "read": {
+          "type": "boolean"
+        },
+        "update": {
+          "type": "boolean"
+        },
+        "delete": {
+          "type": "boolean"
+        },
+        "search": {
+          "type": "boolean"
+        },
+        "print": {
+          "type": "boolean"
+        },
+        "report": {
+          "type": "boolean"
+        },
+        "strict": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
