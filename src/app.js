@@ -1,9 +1,8 @@
 import dotenv from "dotenv";
 import express from "express";
-import assert from "assert";
 import morgan from "morgan";
 import bodyParser from "body-parser";
-import swaggerJsDoc from "swagger-jsdoc";
+// import swaggerJsDoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
 import logger from "./config/winston.config";
 import swaggerConfig from "./swagger.json";

@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-
+import mongoosePaginate from "mongoose-paginate-v2";
+import uniqueValidator from "mongoose-unique-validator";
 const { Schema, model } = mongoose;
 
 const permitSchema = new Schema({
@@ -14,5 +15,8 @@ const permitSchema = new Schema({
   report: Boolean,
   strict: Boolean,
 });
+
+permitSchema.plugin(mongoosePaginate);
+permitSchema.plugin(uniqueValidator);
 
 export default model("Permits", permitSchema);

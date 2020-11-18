@@ -4,7 +4,7 @@ import uniqueValidator from "mongoose-unique-validator";
 const { Schema, model } = mongoose;
 
 const serviceSchema = new Schema({
-  service: { type: String, unique: true },
+  service_name: { type: String, unique: true },
   is_active: Boolean,
 });
 serviceSchema.plugin(mongoosePaginate);

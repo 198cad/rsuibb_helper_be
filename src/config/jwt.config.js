@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 export const generateToken = (payload) => {
-  const token = jwt.sign({ payload }, process.env.JWT_SECRET, { expiresIn: "2m" });
+  const token = jwt.sign({ payload }, process.env.JWT_SECRET, { expiresIn: "1d" });
   return token;
 };
 
@@ -14,10 +14,7 @@ export const generateRefreshToken = (payload) => {
 
 export const verifyToken = (token) => {
   try {
-    const decode = jwt.verify(token, process.env.JWT_SECRET);
-    if (decode) {
-      return decode;
-    }
+    return jwt.verify(token, process.env.JWT_SECRET);
   } catch (error) {
     return error;
   }

@@ -5,21 +5,18 @@ import { ok, internalServerError, badRequest, created, notFound } from "../../re
 
 export const createService = (req, res) => {
   const schema = Joi.object().keys({
-    service: Joi.string().required().min(2),
+    service_name: Joi.string().required().min(2),
     is_active: Joi.boolean().required(),
   });
   Joi.validate(req.body, schema, (err, result) => {
     if (err) {
       badRequest(res, err);
-      return null;
     } else {
       Service.create(result, (err, doc) => {
         if (err) {
           internalServerError(res, err);
-          return null;
         } else {
           created(res, doc);
-          return null;
         }
       });
     }
@@ -55,7 +52,7 @@ export const readService = async (req, res) => {
 export const updateService = (req, res) => {
   const { id } = req.params;
   const schema = Joi.object().keys({
-    service: Joi.string().required().min(2),
+    service_name: Joi.string().required().min(2),
     is_active: Joi.boolean().required(),
   });
 

@@ -1,31 +1,34 @@
-const SERVICE_NAME = "AUTH";
 import User from "../user/user.model";
 import { compare } from "bcrypt";
-import { notFound, ok, forbidden } from "../../res/http.res";
+import { notFound, ok, forbidden, internalServerError } from "../../res/http.res";
 import { generateToken, verifyToken } from "../../config/jwt.config";
 
 export const login = (req, res) => {
   const { username, password } = req.body;
-
-  User.findOne({ username }, async (error, doc) => {
+  console.log(password);
+  User.findOne({ username }, async (error, docs) => {
     if (error) {
-      notFound(res, error);
+      internalServerError(res, error);
     } else {
-      const match = await compare(password, doc.password);
-      if (match) {
-        const token = await generateToken(doc);
-        //   Response disesuaikan dengan spesifikasi JKN Mobile BPJS
-        res.status(200).json({
-          response: {
-            token,
-          },
-          metadata: {
-            message: "Ok",
-            code: 200,
-          },
-        });
+      if (docs) {
+        const match = await compare(password, docs.password);
+        if (match) {
+          const token = await generateToken(docs);
+          //   Response disesuaikan dengan spesifikasi JKN Mobile BPJS
+          res.status(200).json({
+            response: {
+              token,
+            },
+            metadata: {
+              message: "Ok",
+              code: 200,
+            },
+          });
+        } else {
+          forbidden(res, "Password not matched !");
+        }
       } else {
-        forbidden(res, "Password not matched !");
+        notFound(res, "data tidak ditemukan");
       }
     }
   });

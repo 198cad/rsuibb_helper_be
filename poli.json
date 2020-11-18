@@ -1,0 +1,792 @@
+[
+  {
+    "no": 1,
+    "kdpoli": "004",
+    "nmpoli": "ALERGI-IMMUNOLOGI KLINIK"
+  },
+  {
+    "no": 2,
+    "kdpoli": "005",
+    "nmpoli": "GASTROENTEROLOGI-HEPATOLOGI"
+  },
+  {
+    "no": 3,
+    "kdpoli": "006",
+    "nmpoli": "GERIATRI"
+  },
+  {
+    "no": 4,
+    "kdpoli": "007",
+    "nmpoli": "GINJAL-HIPERTENSI"
+  },
+  {
+    "no": 5,
+    "kdpoli": "008",
+    "nmpoli": "HEMATOLOGI - ONKOLOGI MEDIK"
+  },
+  {
+    "no": 6,
+    "kdpoli": "009",
+    "nmpoli": "HEPATOLOGI"
+  },
+  {
+    "no": 7,
+    "kdpoli": "010",
+    "nmpoli": "ENDOKRIN-METABOLIK-DIABETES"
+  },
+  {
+    "no": 8,
+    "kdpoli": "011",
+    "nmpoli": "PSIKOSOMATIK"
+  },
+  {
+    "no": 9,
+    "kdpoli": "012",
+    "nmpoli": "PULMONOLOGI"
+  },
+  {
+    "no": 10,
+    "kdpoli": "013",
+    "nmpoli": "REUMATOLOGI"
+  },
+  {
+    "no": 11,
+    "kdpoli": "014",
+    "nmpoli": "PENYAKIT TROPIK-INFEKSI"
+  },
+  {
+    "no": 12,
+    "kdpoli": "015",
+    "nmpoli": "KARDIOVASKULAR"
+  },
+  {
+    "no": 13,
+    "kdpoli": "017",
+    "nmpoli": "BEDAH ONKOLOGI"
+  },
+  {
+    "no": 14,
+    "kdpoli": "018",
+    "nmpoli": "BEDAH DIGESTIF"
+  },
+  {
+    "no": 15,
+    "kdpoli": "020",
+    "nmpoli": "FETOMATERNAL"
+  },
+  {
+    "no": 16,
+    "kdpoli": "021",
+    "nmpoli": "ONKOLOGI GINEKOLOGI"
+  },
+  {
+    "no": 17,
+    "kdpoli": "022",
+    "nmpoli": "UROGINEKOLOGI REKONTRUSKI"
+  },
+  {
+    "no": 18,
+    "kdpoli": "023",
+    "nmpoli": "OBSTETRI GINEKOLOGI SOSIAL"
+  },
+  {
+    "no": 19,
+    "kdpoli": "024",
+    "nmpoli": "ENDOKRINOLOGI"
+  },
+  {
+    "no": 20,
+    "kdpoli": "025",
+    "nmpoli": "FERTILITAS"
+  },
+  {
+    "no": 21,
+    "kdpoli": "027",
+    "nmpoli": "ANAK ALERGI IMUNOLOGI"
+  },
+  {
+    "no": 22,
+    "kdpoli": "028",
+    "nmpoli": "ANAK ENDOKRINOLOGI"
+  },
+  {
+    "no": 23,
+    "kdpoli": "029",
+    "nmpoli": "ANAK GASTRO-HEPATOLOGI"
+  },
+  {
+    "no": 24,
+    "kdpoli": "030",
+    "nmpoli": "ANAK HEMATOLOGI ONKOLOGI"
+  },
+  {
+    "no": 25,
+    "kdpoli": "031",
+    "nmpoli": "ANAK INFEKSI & PEDIATRI TROPIS"
+  },
+  {
+    "no": 26,
+    "kdpoli": "032",
+    "nmpoli": "ANAK KARDIOLOGI"
+  },
+  {
+    "no": 27,
+    "kdpoli": "033",
+    "nmpoli": "ANAK NEFROLOGI"
+  },
+  {
+    "no": 28,
+    "kdpoli": "034",
+    "nmpoli": "ANAK NEUROLOGI"
+  },
+  {
+    "no": 29,
+    "kdpoli": "036",
+    "nmpoli": "PEDIATRI GAWAT DARURAT"
+  },
+  {
+    "no": 30,
+    "kdpoli": "037",
+    "nmpoli": "PENCITRAAN ANAK"
+  },
+  {
+    "no": 31,
+    "kdpoli": "038",
+    "nmpoli": "PERINATOLOGI"
+  },
+  {
+    "no": 32,
+    "kdpoli": "039",
+    "nmpoli": "RESPIROLOGI ANAK"
+  },
+  {
+    "no": 33,
+    "kdpoli": "040",
+    "nmpoli": "TUMBUH KEMBANG PED. SOSIAL"
+  },
+  {
+    "no": 34,
+    "kdpoli": "041",
+    "nmpoli": "KESEHATAN REMAJA"
+  },
+  {
+    "no": 35,
+    "kdpoli": "043",
+    "nmpoli": "INTENSIVE CARE/ICU"
+  },
+  {
+    "no": 36,
+    "kdpoli": "044",
+    "nmpoli": "ANESTESI KARDIOVASKULER"
+  },
+  {
+    "no": 37,
+    "kdpoli": "045",
+    "nmpoli": "MANAJEMEN NYERI"
+  },
+  {
+    "no": 38,
+    "kdpoli": "047",
+    "nmpoli": "NEUROANESTESI"
+  },
+  {
+    "no": 39,
+    "kdpoli": "048",
+    "nmpoli": "ANESTESI PEDIATRI"
+  },
+  {
+    "no": 40,
+    "kdpoli": "049",
+    "nmpoli": "ANESTESI OBSTETRI"
+  },
+  {
+    "no": 41,
+    "kdpoli": "051",
+    "nmpoli": "Radiologi Thoraks"
+  },
+  {
+    "no": 42,
+    "kdpoli": "052",
+    "nmpoli": "Radiologi Muskuloskeletal"
+  },
+  {
+    "no": 43,
+    "kdpoli": "053",
+    "nmpoli": "Radiologi Tr Urinariusgenitalia"
+  },
+  {
+    "no": 44,
+    "kdpoli": "054",
+    "nmpoli": "Radiologi Tr Digestivus"
+  },
+  {
+    "no": 45,
+    "kdpoli": "055",
+    "nmpoli": "Neuroradiologi"
+  },
+  {
+    "no": 46,
+    "kdpoli": "056",
+    "nmpoli": "Pencitraan Payudara/womans imaging"
+  },
+  {
+    "no": 47,
+    "kdpoli": "057",
+    "nmpoli": "Radiologi intervensional kardiovaskular"
+  },
+  {
+    "no": 48,
+    "kdpoli": "058",
+    "nmpoli": "Pencitraan kepala leher"
+  },
+  {
+    "no": 49,
+    "kdpoli": "059",
+    "nmpoli": "Radiologi pediatrik"
+  },
+  {
+    "no": 50,
+    "kdpoli": "060",
+    "nmpoli": "Kedokteran nuklir"
+  },
+  {
+    "no": 51,
+    "kdpoli": "067",
+    "nmpoli": "OTOLOGI"
+  },
+  {
+    "no": 52,
+    "kdpoli": "068",
+    "nmpoli": "NEUROTOLOGI"
+  },
+  {
+    "no": 53,
+    "kdpoli": "069",
+    "nmpoli": "RINOLOGI"
+  },
+  {
+    "no": 54,
+    "kdpoli": "070",
+    "nmpoli": "LARINGO-FARINGOLOGI"
+  },
+  {
+    "no": 55,
+    "kdpoli": "071",
+    "nmpoli": "ONKOLOGI KEPALA LEHER"
+  },
+  {
+    "no": 56,
+    "kdpoli": "072",
+    "nmpoli": "PLASTIK REKONSTRUKSI"
+  },
+  {
+    "no": 57,
+    "kdpoli": "073",
+    "nmpoli": "BRONKOESOFAGOLOGI"
+  },
+  {
+    "no": 58,
+    "kdpoli": "074",
+    "nmpoli": "ALERGI IMUNOLOGI"
+  },
+  {
+    "no": 59,
+    "kdpoli": "075",
+    "nmpoli": "THT KOMUNITAS"
+  },
+  {
+    "no": 60,
+    "kdpoli": "078",
+    "nmpoli": "NEUROTRAUMA"
+  },
+  {
+    "no": 61,
+    "kdpoli": "079",
+    "nmpoli": "NEUROINFEKSI"
+  },
+  {
+    "no": 62,
+    "kdpoli": "080",
+    "nmpoli": "NEUROINFEKSI DAN IMUNOLOGI"
+  },
+  {
+    "no": 63,
+    "kdpoli": "081",
+    "nmpoli": "EPILEPSI"
+  },
+  {
+    "no": 64,
+    "kdpoli": "082",
+    "nmpoli": "NEUROFISIOLOGI KLINIS"
+  },
+  {
+    "no": 65,
+    "kdpoli": "083",
+    "nmpoli": "NEUROMUSKULAR, SARAF PERIFER"
+  },
+  {
+    "no": 66,
+    "kdpoli": "086",
+    "nmpoli": "NEURO-INTENSIF"
+  },
+  {
+    "no": 67,
+    "kdpoli": "095",
+    "nmpoli": "INFEKSI"
+  },
+  {
+    "no": 68,
+    "kdpoli": "096",
+    "nmpoli": "ONKOLOGI TORAKS"
+  },
+  {
+    "no": 69,
+    "kdpoli": "097",
+    "nmpoli": "ASMA DAN PPOK"
+  },
+  {
+    "no": 70,
+    "kdpoli": "099",
+    "nmpoli": "FAAL PARU KLINIK"
+  },
+  {
+    "no": 71,
+    "kdpoli": "100",
+    "nmpoli": "PARU KERJA DAN LINGKUNGAN"
+  },
+  {
+    "no": 72,
+    "kdpoli": "101",
+    "nmpoli": "IMUNOLOGIK KLINIK"
+  },
+  {
+    "no": 73,
+    "kdpoli": "104",
+    "nmpoli": "BURN (LUKA BAKAR)"
+  },
+  {
+    "no": 74,
+    "kdpoli": "105",
+    "nmpoli": "MICRO SURGERY"
+  },
+  {
+    "no": 75,
+    "kdpoli": "106",
+    "nmpoli": "KRANIOFASIAL (KKF)"
+  },
+  {
+    "no": 76,
+    "kdpoli": "107",
+    "nmpoli": "HAND (BEDAH TANGAN)"
+  },
+  {
+    "no": 77,
+    "kdpoli": "108",
+    "nmpoli": "GENITALIA EKSTERNA"
+  },
+  {
+    "no": 78,
+    "kdpoli": "109",
+    "nmpoli": "REKONTRUKSI DAN ESTETIK"
+  },
+  {
+    "no": 79,
+    "kdpoli": "132",
+    "nmpoli": "Bedah Vaskuler"
+  },
+  {
+    "no": 80,
+    "kdpoli": "133",
+    "nmpoli": "Kornea dan Bedah Refraktif"
+  },
+  {
+    "no": 81,
+    "kdpoli": "134",
+    "nmpoli": "Infeksi dan Immunologi"
+  },
+  {
+    "no": 82,
+    "kdpoli": "135",
+    "nmpoli": "Vitreo - Retina"
+  },
+  {
+    "no": 83,
+    "kdpoli": "136",
+    "nmpoli": "Strabismus"
+  },
+  {
+    "no": 84,
+    "kdpoli": "137",
+    "nmpoli": "Neuro Oftalmologi"
+  },
+  {
+    "no": 85,
+    "kdpoli": "138",
+    "nmpoli": "Glaukoma"
+  },
+  {
+    "no": 86,
+    "kdpoli": "139",
+    "nmpoli": "Pediatrik Oftalmologi"
+  },
+  {
+    "no": 87,
+    "kdpoli": "140",
+    "nmpoli": "Refraksi"
+  },
+  {
+    "no": 88,
+    "kdpoli": "141",
+    "nmpoli": "Rekonstruksi"
+  },
+  {
+    "no": 89,
+    "kdpoli": "142",
+    "nmpoli": "Onkologi Mata"
+  },
+  {
+    "no": 90,
+    "kdpoli": "143",
+    "nmpoli": "Dermatologi Infeksi Tropik"
+  },
+  {
+    "no": 91,
+    "kdpoli": "144",
+    "nmpoli": "Dermatologi Pediatrik"
+  },
+  {
+    "no": 92,
+    "kdpoli": "146",
+    "nmpoli": "Infeksi Menular Seksual"
+  },
+  {
+    "no": 93,
+    "kdpoli": "147",
+    "nmpoli": "Dermato - Alergo - Imunologi"
+  },
+  {
+    "no": 94,
+    "kdpoli": "148",
+    "nmpoli": "Dermatologi Geriatrik"
+  },
+  {
+    "no": 95,
+    "kdpoli": "149",
+    "nmpoli": "Tumor dan Bedah Kulit"
+  },
+  {
+    "no": 96,
+    "kdpoli": "150",
+    "nmpoli": "Dermatopatologi"
+  },
+  {
+    "no": 97,
+    "kdpoli": "151",
+    "nmpoli": "Trauma dan Rekonstruksi"
+  },
+  {
+    "no": 98,
+    "kdpoli": "152",
+    "nmpoli": "Tulang Belakang"
+  },
+  {
+    "no": 99,
+    "kdpoli": "153",
+    "nmpoli": "Tumor Tulang"
+  },
+  {
+    "no": 100,
+    "kdpoli": "154",
+    "nmpoli": "Pediatrik"
+  },
+  {
+    "no": 101,
+    "kdpoli": "156",
+    "nmpoli": "Hand and Microsurgery"
+  },
+  {
+    "no": 102,
+    "kdpoli": "157",
+    "nmpoli": "Rekonstruksi Dewasa/Hip and Knee"
+  },
+  {
+    "no": 103,
+    "kdpoli": "158",
+    "nmpoli": "Bio Orthopedic"
+  },
+  {
+    "no": 104,
+    "kdpoli": "160",
+    "nmpoli": "Neuropsikiatri dan Psikometri"
+  },
+  {
+    "no": 105,
+    "kdpoli": "162",
+    "nmpoli": "Psikiatri Anak dan Remaja"
+  },
+  {
+    "no": 106,
+    "kdpoli": "163",
+    "nmpoli": "Psikiatri Geriatri"
+  },
+  {
+    "no": 107,
+    "kdpoli": "165",
+    "nmpoli": "Consultation-Liaison Psychiatri"
+  },
+  {
+    "no": 108,
+    "kdpoli": "168",
+    "nmpoli": "Radioterapi"
+  },
+  {
+    "no": 109,
+    "kdpoli": "169",
+    "nmpoli": "Radiologi Onkologi"
+  },
+  {
+    "no": 110,
+    "kdpoli": "170",
+    "nmpoli": "Bedah Kepala Leher"
+  },
+  {
+    "no": 111,
+    "kdpoli": "ANA",
+    "nmpoli": "ANAK"
+  },
+  {
+    "no": 112,
+    "kdpoli": "AND",
+    "nmpoli": "ANDROLOGI"
+  },
+  {
+    "no": 113,
+    "kdpoli": "ANT",
+    "nmpoli": "ANASTESI"
+  },
+  {
+    "no": 114,
+    "kdpoli": "BDA",
+    "nmpoli": "BEDAH ANAK"
+  },
+  {
+    "no": 115,
+    "kdpoli": "BDM",
+    "nmpoli": "GIGI BEDAH MULUT"
+  },
+  {
+    "no": 116,
+    "kdpoli": "BDP",
+    "nmpoli": "BEDAH PLASTIK"
+  },
+  {
+    "no": 117,
+    "kdpoli": "BED",
+    "nmpoli": "BEDAH"
+  },
+  {
+    "no": 118,
+    "kdpoli": "BSY",
+    "nmpoli": "BEDAH SARAF"
+  },
+  {
+    "no": 119,
+    "kdpoli": "BTK",
+    "nmpoli": "BTKV (BEDAH THORAX KARDIOVASKU"
+  },
+  {
+    "no": 120,
+    "kdpoli": "FMK",
+    "nmpoli": "FARMAKOLOGI KLINIK"
+  },
+  {
+    "no": 121,
+    "kdpoli": "GIG",
+    "nmpoli": "GIGI"
+  },
+  {
+    "no": 122,
+    "kdpoli": "GIZ",
+    "nmpoli": "GIZI KLINIK"
+  },
+  {
+    "no": 123,
+    "kdpoli": "GND",
+    "nmpoli": "GIGI ENDODONSI"
+  },
+  {
+    "no": 124,
+    "kdpoli": "GOR",
+    "nmpoli": "GIGI ORTHODONTI"
+  },
+  {
+    "no": 125,
+    "kdpoli": "GPR",
+    "nmpoli": "GIGI PERIODONTI"
+  },
+  {
+    "no": 126,
+    "kdpoli": "GRD",
+    "nmpoli": "GIGI RADIOLOGI"
+  },
+  {
+    "no": 127,
+    "kdpoli": "HDL",
+    "nmpoli": "HEMODIALISA"
+  },
+  {
+    "no": 128,
+    "kdpoli": "HIV",
+    "nmpoli": "B20"
+  },
+  {
+    "no": 129,
+    "kdpoli": "IGD",
+    "nmpoli": "INSTALASI GAWAT DARURAT"
+  },
+  {
+    "no": 130,
+    "kdpoli": "INT",
+    "nmpoli": "PENYAKIT DALAM"
+  },
+  {
+    "no": 131,
+    "kdpoli": "IRM",
+    "nmpoli": "REHABILITASI MEDIK"
+  },
+  {
+    "no": 132,
+    "kdpoli": "JAN",
+    "nmpoli": "JANTUNG DAN PEMBULUH DARAH"
+  },
+  {
+    "no": 133,
+    "kdpoli": "JIW",
+    "nmpoli": "JIWA"
+  },
+  {
+    "no": 134,
+    "kdpoli": "KDK",
+    "nmpoli": "KEDOKTERAN KELAUTAN"
+  },
+  {
+    "no": 135,
+    "kdpoli": "KDN",
+    "nmpoli": "KEDOKTERAN NUKLIR"
+  },
+  {
+    "no": 136,
+    "kdpoli": "KDO",
+    "nmpoli": "KEDOKTERAN OKUPASI"
+  },
+  {
+    "no": 137,
+    "kdpoli": "KDP",
+    "nmpoli": "KEDOKTERAN PENERBANGAN"
+  },
+  {
+    "no": 138,
+    "kdpoli": "KEM",
+    "nmpoli": "SARANA KEMOTERAPI"
+  },
+  {
+    "no": 139,
+    "kdpoli": "KLT",
+    "nmpoli": "KULIT KELAMIN"
+  },
+  {
+    "no": 140,
+    "kdpoli": "KON",
+    "nmpoli": "GIGI PEDODONTIS"
+  },
+  {
+    "no": 141,
+    "kdpoli": "KOR",
+    "nmpoli": "KEDOKTERAAN OLAHRAGA"
+  },
+  {
+    "no": 142,
+    "kdpoli": "MAT",
+    "nmpoli": "MATA"
+  },
+  {
+    "no": 143,
+    "kdpoli": "MKB",
+    "nmpoli": "MIKROBIOLOGI KLINIK"
+  },
+  {
+    "no": 144,
+    "kdpoli": "OBG",
+    "nmpoli": "OBGYN"
+  },
+  {
+    "no": 145,
+    "kdpoli": "ORT",
+    "nmpoli": "ORTHOPEDI"
+  },
+  {
+    "no": 146,
+    "kdpoli": "PAA",
+    "nmpoli": "PATOLOGI ANATOMI"
+  },
+  {
+    "no": 147,
+    "kdpoli": "PAK",
+    "nmpoli": "PATOLOGI KLINIK"
+  },
+  {
+    "no": 148,
+    "kdpoli": "PAR",
+    "nmpoli": "PARU"
+  },
+  {
+    "no": 149,
+    "kdpoli": "PNM",
+    "nmpoli": "GIGI PENYAKIT MULUT"
+  },
+  {
+    "no": 150,
+    "kdpoli": "PRM",
+    "nmpoli": "PARASITOLOGI UMUM"
+  },
+  {
+    "no": 151,
+    "kdpoli": "PTD",
+    "nmpoli": "GIGI PROSTHODONTI"
+  },
+  {
+    "no": 152,
+    "kdpoli": "RAT",
+    "nmpoli": "SARANA RADIOTERAPI"
+  },
+  {
+    "no": 153,
+    "kdpoli": "RDN",
+    "nmpoli": "RADIOLOGI ONKOLOGI"
+  },
+  {
+    "no": 154,
+    "kdpoli": "RDO",
+    "nmpoli": "RADIOLOGI"
+  },
+  {
+    "no": 155,
+    "kdpoli": "RDT",
+    "nmpoli": "RADIOTERAPI"
+  },
+  {
+    "no": 156,
+    "kdpoli": "SAR",
+    "nmpoli": "SARAF"
+  },
+  {
+    "no": 157,
+    "kdpoli": "THT",
+    "nmpoli": "THT-KL"
+  },
+  {
+    "no": 158,
+    "kdpoli": "URO",
+    "nmpoli": "UROLOGI"
+  }
+]

@@ -1,5 +1,5 @@
 import express from "express";
-import { createPermit } from "./permit.controller";
+import { createPermit, readPermit } from "./permit.controller";
 import { checkToken, login } from "./auth.controller";
 import { createService, deleteService, readService, updateService } from "./service.controller";
 import { createRole, deleteRole, readRole, updateRole } from "./role.controllers";
@@ -16,5 +16,6 @@ router.get("/auth/role/:id?", readRole);
 router.patch("/auth/role/:id", updateRole);
 router.delete("/auth/role/:id", deleteRole);
 router.post("/auth/permit", createPermit);
+router.get("/auth/permit/:id?", readPermit);
 
 export default router;
