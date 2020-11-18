@@ -5,7 +5,6 @@ import { generateToken, verifyToken } from "../../config/jwt.config";
 
 export const login = (req, res) => {
   const { username, password } = req.body;
-  console.log(password);
   User.findOne({ username }, async (error, docs) => {
     if (error) {
       internalServerError(res, error);
